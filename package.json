@@ -1,0 +1,33 @@
+{
+  "name": "07_ahj-http_helpdesk",
+  "version": "1.0.0",
+  "description": "Пока backend-разработчик находится в отпуске, вам поручили сделать прототип API для сервиса управления заявками на помощь (можете за себя порадоваться, так недалеко и до fullstack'а), к которому вам и нужно будет в дальнейшем прикруить frontend.",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgeniy-27/ahj-http_HelpDesk.git"
+  },
+  "author": "Evgeniy-27",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evgeniy-27/ahj-http_HelpDesk/issues"
+  },
+  "homepage": "https://github.com/Evgeniy-27/ahj-http_HelpDesk#readme",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0",
+    "koa-cors": "0.0.16",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "11.x"
+  }
+}
